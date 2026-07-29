@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def calculator():
-    result = "hi"
+    result = "hii"
 
     if request.method == "POST":
         num1 = float(request.form["num1"])
